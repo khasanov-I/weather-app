@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content-page {
+    display: flex;
+    margin-top: 61.6px;
+    height: 100%;
+    padding: 20px;
+}
