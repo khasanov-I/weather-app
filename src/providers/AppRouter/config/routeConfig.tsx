@@ -27,6 +27,7 @@ export const routeConfig: Record<string, AppRouterProps> = {
     profile: {
         path: '/profile',
         element: <ProfilePage />,
+        authOnly: true
     },
     // LAST
     notFound: {

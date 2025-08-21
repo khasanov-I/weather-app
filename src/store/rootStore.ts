@@ -1,14 +1,17 @@
 import { createContext, useContext } from "react";
 import { UserStore } from "./userStore/userStore";
-import { SearchUserStore } from "./searchUserStore/searchUserStore";
+import { WeatherStore } from "./weatherStore/weatherStore";
+import { SearchWeatherStore } from "./searchWeatherStore/searchWeatherStore";
 
 export class RootStore {
     userStore: UserStore
-    searchUserStore: SearchUserStore
+    searchWeatherStore: SearchWeatherStore
+    weatherStore: WeatherStore
 
     constructor() {
         this.userStore = new UserStore()
-        this.searchUserStore = new SearchUserStore()
+        this.searchWeatherStore = new SearchWeatherStore()
+        this.weatherStore = new WeatherStore()
     }
 }
 

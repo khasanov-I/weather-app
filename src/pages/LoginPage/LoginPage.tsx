@@ -3,6 +3,7 @@ import { observer } from "mobx-react-lite";
 import { JSX, useCallback, useState } from "react";
 import { useStores } from "../../store/rootStore";
 import { useNavigate } from "react-router-dom";
+import "./RegisterPage.css"
 
 interface LoginPageProps {}
 
